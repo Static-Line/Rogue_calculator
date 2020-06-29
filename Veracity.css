@@ -1,0 +1,69 @@
+body {
+    background-color: Cornsilk;
+}
+
+h1 {
+    color: Tomato;
+    text-align: center;
+}
+ 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+p {
+  color: Tomato;
+  text-align: center;
+}
+span.boldtext {
+    font-weight: bold;
+}
+
+span.italictext {
+    font-style: italic;
+}
+table {
+  width: 100%;
+}
+
+th {
+  height: 80px;
+}
+th {
+  background-color:#4c8baf;
+  color: white;
+}
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 50px;
+  text-align: left;
+}
+th {
+  text-align: left;
+}
+td {
+  height: 50px;
+  vertical-align: bottom;
+}
+td {
+  text-align: left;
+}
+th {
+  height: 50px;
